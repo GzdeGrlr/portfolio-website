@@ -18,6 +18,9 @@
   .introImage {
     width: 200px !important;
   }
+  .introText h1 {
+    text-align: center;
+  }
 
   .line {
     display: none;
@@ -32,10 +35,21 @@
   .introButtons {
     flex-wrap: wrap;
   }
+  .profileContainer {
+    gap: 2rem;
+  }
 
+  .profileCard,
+  .about {
+    width: 310px !important;
+  }
   .projectsContainer {
     display: flex;
     justify-content: center !important;
+    gap: 4rem !important;
+  }
+  .card {
+    width: 20rem !important;
   }
 
   .contactContainer {
@@ -201,7 +215,6 @@ header nav a {
   display: flex;
   justify-content: space-between;
   margin: 2% 10%;
-  gap: 3rem;
   flex-wrap: wrap;
 }
 .infos {
@@ -217,11 +230,14 @@ header nav a {
 .about {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  padding: 25px;
+  padding: 20px;
+  width: 750px;
 }
 
-.about {
-  max-width: 800px;
+.card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  padding: 25px;
 }
 .about p {
   font-weight: 400;
@@ -251,7 +267,7 @@ header nav a {
   align-items: center;
   flex-wrap: wrap;
   margin: 2% 10% 4% 10%;
-  gap: 7rem;
+  gap: 2rem;
 }
 
 .list-group {

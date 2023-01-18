@@ -15,12 +15,12 @@ const Projects = () => {
         <h2 className="title">Projects</h2>
         <div className="projectsContainer">
           <div>
-            <Card style={{ width: "25rem" }}>
+            <Card style={{ width: "28rem", minHeight: "650px" }}>
               <Card.Img
                 variant="top"
                 src={PizzaDot}
                 style={{
-                  width: "400px",
+                  width: "-webkit-fill-available",
                   height: "240px",
                   boxShadow: "rgba(0, 0, 0, 0.08) 0px 4px 12px",
                 }}
@@ -108,12 +108,12 @@ const Projects = () => {
             </Card>
           </div>
           <div>
-            <Card style={{ width: "25rem" }}>
+            <Card style={{ width: "28rem", minHeight: "650px" }}>
               <Card.Img
                 variant="top"
                 src={RandomJokes}
                 style={{
-                  width: "400px",
+                  width: "-webkit-fill-available",
                   height: "240px",
                   boxShadow: "rgba(0, 0, 0, 0.08) 0px 4px 12px",
                 }}
@@ -201,12 +201,12 @@ const Projects = () => {
             </Card>
           </div>
           <div>
-            <Card style={{ width: "25rem" }}>
+            <Card style={{ width: "28rem", minHeight: "650px" }}>
               <Card.Img
                 variant="top"
                 src={MediumClone}
                 style={{
-                  width: "400px",
+                  width: "-webkit-fill-available",
                   height: "240px",
                   boxShadow: "rgba(0, 0, 0, 0.08) 0px 4px 12px",
                 }}
