@@ -93,7 +93,9 @@
     margin-top: 58px !important;
   }
 }
-
+.icon {
+  color: white;
+}
 * {
   margin: 0;
   box-sizing: border-box;
