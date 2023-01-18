@@ -92,10 +92,16 @@ const Projects = () => {
                 </ListGroup.Item>
               </ListGroup>
               <Card.Body className="links" style={{ marginTop: "15px" }}>
-                <Card.Link href="#" target="_blank">
+                <Card.Link
+                  href="https://github.com/GzdeGrlr/pizza-store-form"
+                  target="_blank"
+                >
                   View on Github
                 </Card.Link>
-                <Card.Link href="#" target="_blank">
+                <Card.Link
+                  href="https://pizza-store-form.vercel.app/"
+                  target="_blank"
+                >
                   Go to app
                 </Card.Link>
               </Card.Body>
@@ -259,10 +265,16 @@ const Projects = () => {
                 </ListGroup.Item>
               </ListGroup>
               <Card.Body className="links" style={{ marginTop: "15px" }}>
-                <Card.Link href="#" target="_blank">
+                <Card.Link
+                  href="https://github.com/GzdeGrlr/medium-clone/tree/main"
+                  target="_blank"
+                >
                   View on Github
                 </Card.Link>
-                <Card.Link href="#" target="_blank">
+                <Card.Link
+                  href="https://medium-clone-ten-topaz.vercel.app/"
+                  target="_blank"
+                >
                   Go to app
                 </Card.Link>
               </Card.Body>
