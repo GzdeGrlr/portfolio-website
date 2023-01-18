@@ -20,7 +20,7 @@ const Projects = () => {
                 variant="top"
                 src={PizzaDot}
                 style={{
-                  width: "-webkit-fill-available",
+                  width: "398px",
                   height: "240px",
                   boxShadow: "rgba(0, 0, 0, 0.08) 0px 4px 12px",
                 }}
@@ -113,7 +113,7 @@ const Projects = () => {
                 variant="top"
                 src={RandomJokes}
                 style={{
-                  width: "-webkit-fill-available",
+                  width: "398px",
                   height: "240px",
                   boxShadow: "rgba(0, 0, 0, 0.08) 0px 4px 12px",
                 }}
@@ -206,7 +206,7 @@ const Projects = () => {
                 variant="top"
                 src={MediumClone}
                 style={{
-                  width: "-webkit-fill-available",
+                  width: "398px",
                   height: "240px",
                   boxShadow: "rgba(0, 0, 0, 0.08) 0px 4px 12px",
                 }}
