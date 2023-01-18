@@ -134,7 +134,7 @@ const Projects = () => {
                   {randomJokesText}
                 </Card.Text>
               </Card.Body>
-              <ListGroup className="list-group-flush">
+              <ListGroup className="list-group-flush box-2">
                 <ListGroup.Item
                   style={{
                     border: "1px solid #3730A3",
@@ -232,7 +232,7 @@ const Projects = () => {
                   {mediumCloneText}
                 </Card.Text>
               </Card.Body>
-              <ListGroup className="list-group-flush">
+              <ListGroup className="list-group-flush box-3">
                 <ListGroup.Item
                   style={{
                     border: "1px solid #3730A3",

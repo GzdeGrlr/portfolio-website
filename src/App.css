@@ -37,6 +37,8 @@
   }
   .profileContainer {
     gap: 2rem;
+    display: flex;
+    justify-content: center !important;
   }
 
   .card-img-top {
@@ -44,7 +46,7 @@
   }
   .profileCard,
   .about {
-    width: 310px !important;
+    width: 500px !important;
   }
   .projectsContainer {
     display: flex;
@@ -81,6 +83,14 @@
 
   .card-img-top {
     width: 260px !important;
+  }
+
+  .box-2 {
+    margin-top: 37px !important;
+  }
+
+  .box-3 {
+    margin-top: 58px !important;
   }
 }
 
