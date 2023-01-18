@@ -185,10 +185,16 @@ const Projects = () => {
                 </ListGroup.Item>
               </ListGroup>
               <Card.Body className="links" style={{ marginTop: "15px" }}>
-                <Card.Link href="#" target="_blank">
+                <Card.Link
+                  href="https://github.com/GzdeGrlr/give-it-a-laugh"
+                  target="_blank"
+                >
                   View on Github
                 </Card.Link>
-                <Card.Link href="#" target="_blank">
+                <Card.Link
+                  href="https://give-it-a-laugh.vercel.app/"
+                  target="_blank"
+                >
                   Go to app
                 </Card.Link>
               </Card.Body>

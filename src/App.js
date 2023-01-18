@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header>
         <div className="logo">
-          <a href="#intro">GG</a>
+          <a href="#">GG</a>
         </div>
         <nav className="headerLinks">
           <a href="#skills">Skills</a>

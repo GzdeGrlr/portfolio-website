@@ -9,7 +9,7 @@ export const aboutMe = `I studied philosophy at Boğaziçi University and gradua
 My strong ability in out-of-box thinking and attention to detail will be an asset for creating efficient designs and products with great user-experiences.`;
 
 export const pizzaStoreText =
-  "This is an order form project for a pizza shop. Specifically, it was designed for use in the pizza shop, because the concept of the pizza store is to 'create your own pizza'. Bon Appétit!";
+  "This is an order form project for a pizza shop. Specifically, it was designed for the use in the pizza shop, because the concept of the pizza store is to 'create your own pizza at the pizza shop'. Bon Appétit!";
 
 export const randomJokesText =
   "It is a project that includes async redux and uses API that produces random jokes. And also, it's about laughing people for a moment, and saving the jokes you loved. ";

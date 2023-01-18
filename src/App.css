@@ -38,6 +38,10 @@
     justify-content: center !important;
   }
 
+  .contactContainer {
+    height: 375px !important;
+  }
+
   .contactInfo {
     display: flex;
     flex-direction: column;
@@ -250,10 +254,11 @@ header nav a {
   gap: 7rem;
 }
 
-.list-group-flush {
+.list-group {
   margin-top: 15px;
   display: flex;
-  gap: 10px;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
 .links {
