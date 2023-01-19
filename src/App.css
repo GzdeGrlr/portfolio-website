@@ -74,11 +74,11 @@
 @media screen and (max-width: 1400px) and (min-width: 1100px) {
   .profileCard,
   .about {
-    width: 500px !important;
+    width: 450px !important;
   }
   .card {
     width: 21rem !important;
-    height: 700px;
+    height: 750px;
   }
 
   .card-img-top {
