@@ -93,9 +93,7 @@
     margin-top: 58px !important;
   }
 }
-.icon {
-  color: white;
-}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -194,7 +192,6 @@ header nav a {
 }
 
 .introContent p {
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.7;
   color: #6b7280;
@@ -270,6 +267,10 @@ header nav a {
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
   padding: 25px;
 }
+
+.card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
 .about p {
   font-weight: 400;
   font-size: 18px;
@@ -314,29 +315,28 @@ header nav a {
   gap: 20px;
   font-weight: 500;
   font-size: 16px;
-  text-decoration-line: underline;
-  text-decoration: none;
 }
 .links a {
   background-color: #fff;
   color: #6b7280;
+  text-decoration: none;
   cursor: pointer;
   text-align: center;
-  text-decoration: underline #432269 solid;
   padding: 10px;
   transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
-  font-weight: 600;
-}
-
-.links a:visited {
-  text-decoration: none;
-  color: #6b7280;
-  font-weight: 600;
+  border-radius: 6px;
+  background-color: #eeebff;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  width: 150px;
+  justify-content: center;
+  transition: 0.3s linear;
 }
 
 .links a:hover {
-  background-color: #3730a3;
-  color: #fff;
+  transform: rotateX(15deg);
+  box-shadow: 0 15px 15px rgb(55, 48, 163);
 }
 
 footer {
@@ -401,4 +401,31 @@ footer p {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.05em;
+}
+
+.hover {
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -ms-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+}
+.hover2 {
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+.hover:hover {
+  color: #432269;
+}
+
+.hover2:hover {
+  background-color: #3730a3 !important;
+  color: white !important;
+}
+
+.textDec:hover {
+  text-decoration: underline;
 }

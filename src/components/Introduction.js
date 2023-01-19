@@ -19,7 +19,7 @@ const Introduction = () => {
           <h1>Hello there.</h1>
           <p>{introText}</p>
           <div className="introButtons">
-            <a href={githubLink} target="_blank">
+            <a href={githubLink} target="_blank" className="textDec">
               <BsGithub
                 style={{
                   fontSize: "20px",
@@ -28,7 +28,7 @@ const Introduction = () => {
               />
               Github
             </a>
-            <a href={linkedinLink} target="_blank">
+            <a href={linkedinLink} target="_blank" className="textDec">
               <BsLinkedin
                 style={{
                   fontSize: "20px",
@@ -40,6 +40,7 @@ const Introduction = () => {
             <a
               href="#contact"
               style={{ backgroundColor: "#3730A3", color: "white" }}
+              className="textDec"
             >
               <MdEmail
                 style={{

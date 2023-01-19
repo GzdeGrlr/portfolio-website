@@ -13,11 +13,17 @@ function App() {
           <a href="#">GG</a>
         </div>
         <nav className="headerLinks">
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#profile">Profile</a>
-          <a href="#contact" id="contactLink">
-            Hire me!
+          <a href="#skills" className="hover">
+            Skills
+          </a>
+          <a href="#projects" className="hover">
+            Projects
+          </a>
+          <a href="#profile" className="hover">
+            Profile
+          </a>
+          <a href="#contact" id="contactLink" className="hover2">
+            Contact Me!
           </a>
         </nav>
       </header>

@@ -7,6 +7,7 @@ import RandomJokes from "../contents/pagePhotos/random-jokes.png";
 import { randomJokesText } from "../contents/contents";
 import MediumClone from "../contents/pagePhotos/medium-clone.png";
 import { mediumCloneText } from "../contents/contents";
+import { BsChevronDoubleRight } from "react-icons/bs";
 
 const Projects = () => {
   return (
@@ -95,14 +96,15 @@ const Projects = () => {
                 <Card.Link
                   href="https://github.com/GzdeGrlr/pizza-store-form"
                   target="_blank"
+                  style={{ display: "flex" }}
                 >
-                  View on Github
+                  View on Github <BsChevronDoubleRight />
                 </Card.Link>
                 <Card.Link
                   href="https://pizza-store-form.vercel.app/"
                   target="_blank"
                 >
-                  Go to app
+                  Go to app <BsChevronDoubleRight />
                 </Card.Link>
               </Card.Body>
             </Card>
@@ -189,13 +191,13 @@ const Projects = () => {
                   href="https://github.com/GzdeGrlr/give-it-a-laugh"
                   target="_blank"
                 >
-                  View on Github
+                  View on Github <BsChevronDoubleRight />
                 </Card.Link>
                 <Card.Link
                   href="https://give-it-a-laugh.vercel.app/"
                   target="_blank"
                 >
-                  Go to app
+                  Go to app <BsChevronDoubleRight />
                 </Card.Link>
               </Card.Body>
             </Card>
@@ -275,13 +277,13 @@ const Projects = () => {
                   href="https://github.com/GzdeGrlr/medium-clone/tree/main"
                   target="_blank"
                 >
-                  View on Github
+                  View on Github <BsChevronDoubleRight />
                 </Card.Link>
                 <Card.Link
                   href="https://medium-clone-ten-topaz.vercel.app/"
                   target="_blank"
                 >
-                  Go to app
+                  Go to app <BsChevronDoubleRight />
                 </Card.Link>
               </Card.Body>
             </Card>
