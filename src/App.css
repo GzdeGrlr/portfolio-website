@@ -92,6 +92,12 @@
   .box-3 {
     margin-top: 58px !important;
   }
+  .infos .bold li {
+    font-weight: 500 !important;
+  }
+  .infos .bold {
+    width: 150px;
+  }
 }
 
 * {
