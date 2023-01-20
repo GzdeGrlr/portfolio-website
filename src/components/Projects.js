@@ -101,7 +101,7 @@ const Projects = () => {
                   View on Github <BsChevronDoubleRight />
                 </Card.Link>
                 <Card.Link
-                  href="https://pizza-store-form.vercel.app/"
+                  href="https://pizza-store-form-neoa8gjs0-gzdegrlr.vercel.app/"
                   target="_blank"
                 >
                   Go to app <BsChevronDoubleRight />
