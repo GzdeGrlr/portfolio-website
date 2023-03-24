@@ -7,6 +7,9 @@ import cssLogo from "../contents/logos/css-logo.png";
 import bootstrapLogo from "../contents/logos/bootstrap-logo.jpg";
 import sassLogo from "../contents/logos/sass-logo.png";
 import htmlLogo from "../contents/logos/html-logo.png";
+import nodejsLogo from "../contents/logos/nodejs-logo.png";
+import mySqlLogo from "../contents/logos/mysql-logo.png";
+import pythonLogo from "../contents/logos/python-logo.png";
 
 const Title = styled.h2`
   font-size: 48px;
@@ -89,6 +92,18 @@ const Skills = () => {
           <LogoContainer>
             <Logo src={htmlLogo} />
             <LogoName>Html</LogoName>
+          </LogoContainer>
+          <LogoContainer>
+            <Logo src={nodejsLogo} />
+            <LogoName>Node JS</LogoName>
+          </LogoContainer>
+          <LogoContainer>
+            <Logo src={pythonLogo} />
+            <LogoName>Python</LogoName>
+          </LogoContainer>
+          <LogoContainer>
+            <Logo src={mySqlLogo} />
+            <LogoName>MySQL</LogoName>
           </LogoContainer>
         </SkillsContainer>
       </section>
