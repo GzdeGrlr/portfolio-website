@@ -14,5 +14,5 @@ export const pizzaStoreText =
 export const randomJokesText =
   "It is a project that includes async redux and uses API that produces random jokes. And also, it's about laughing people for a moment, and saving the jokes you loved. ";
 
-export const mediumCloneText =
-  "It is a clone of Medium webpage which is made by Bootstrap features.";
+export const propertyPulseText =
+  "A real estate platform built with Next.js and MongoDB, offering dynamic property listings. Features secure authentication with NextAuth and a user-friendly interface powered by React and Tailwind CSS.";

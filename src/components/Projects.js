@@ -5,8 +5,8 @@ import PizzaDot from "../contents/pagePhotos/pizza-store.png";
 import { pizzaStoreText } from "../contents/contents";
 import RandomJokes from "../contents/pagePhotos/random-jokes.png";
 import { randomJokesText } from "../contents/contents";
-import MediumClone from "../contents/pagePhotos/medium-clone.png";
-import { mediumCloneText } from "../contents/contents";
+import PropertyPulse from "../contents/pagePhotos/PropertyPulse.png";
+import { propertyPulseText } from "../contents/contents";
 import { BsChevronDoubleRight } from "react-icons/bs";
 
 const Projects = () => {
@@ -206,7 +206,7 @@ const Projects = () => {
             <Card style={{ width: "28rem", minHeight: "650px" }}>
               <Card.Img
                 variant="top"
-                src={MediumClone}
+                src={PropertyPulse}
                 style={{
                   width: "398px",
                   height: "240px",
@@ -223,7 +223,7 @@ const Projects = () => {
                     marginTop: "20px",
                   }}
                 >
-                  Medium Clone
+                  Property Pulse
                 </Card.Title>
                 <Card.Text
                   style={{
@@ -231,7 +231,7 @@ const Projects = () => {
                     height: "96px",
                   }}
                 >
-                  {mediumCloneText}
+                  {propertyPulseText}
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush box-3">
@@ -245,7 +245,7 @@ const Projects = () => {
                     color: "#3730A3",
                   }}
                 >
-                  #Html
+                  #NextJS
                 </ListGroup.Item>
                 <ListGroup.Item
                   style={{
@@ -257,7 +257,7 @@ const Projects = () => {
                     color: "#3730A3",
                   }}
                 >
-                  #Css
+                  #Next Auth
                 </ListGroup.Item>
                 <ListGroup.Item
                   style={{
@@ -269,18 +269,18 @@ const Projects = () => {
                     color: "#3730A3",
                   }}
                 >
-                  #Bootstrap 5
+                  #MongoDB
                 </ListGroup.Item>
               </ListGroup>
               <Card.Body className="links" style={{ marginTop: "15px" }}>
                 <Card.Link
-                  href="https://github.com/GzdeGrlr/medium-clone/tree/main"
+                  href="https://github.com/GzdeGrlr/PropertyPulse"
                   target="_blank"
                 >
                   View on Github <BsChevronDoubleRight />
                 </Card.Link>
                 <Card.Link
-                  href="https://medium-clone-ten-topaz.vercel.app/"
+                  href="https://property-pulse-taupe-two.vercel.app/"
                   target="_blank"
                 >
                   Go to app <BsChevronDoubleRight />
