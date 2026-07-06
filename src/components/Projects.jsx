@@ -40,22 +40,26 @@ export default function Projects() {
                 ))}
               </div>
               <div className="mt-6 flex items-center gap-5 text-sm font-medium">
-                <a
-                  href={project.repo}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center gap-1.5 text-slate-600 transition-colors hover:text-brand-600 dark:text-slate-300 dark:hover:text-brand-400"
-                >
-                  <BsGithub /> GitHub
-                </a>
-                <a
-                  href={project.live}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center gap-1 text-brand-600 transition-colors hover:text-brand-700 dark:text-brand-400 dark:hover:text-brand-300"
-                >
-                  Live app <BsChevronDoubleRight />
-                </a>
+                {project.repo && (
+                  <a
+                    href={project.repo}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-1.5 text-slate-600 transition-colors hover:text-brand-600 dark:text-slate-300 dark:hover:text-brand-400"
+                  >
+                    <BsGithub /> GitHub
+                  </a>
+                )}
+                {project.live && (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-1 text-brand-600 transition-colors hover:text-brand-700 dark:text-brand-400 dark:hover:text-brand-300"
+                  >
+                    {project.liveLabel ?? "Live app"} <BsChevronDoubleRight />
+                  </a>
+                )}
               </div>
             </div>
           </motion.article>

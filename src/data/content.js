@@ -1,5 +1,5 @@
 import introPhoto from "../assets/introPhoto.jpeg";
-import pizzaStoreImg from "../assets/pizza-store.png";
+import aiLearningAssistantImg from "../assets/AI-Learning-Assistant.png";
 import randomJokesImg from "../assets/random-jokes.png";
 import propertyPulseImg from "../assets/PropertyPulse.png";
 
@@ -41,8 +41,9 @@ export const experience = [
       "Creating SQL-based data pipelines and dashboards that turn learning data into actionable insights for education and operations teams.",
       "Led the iyzico payment integration and own landing page development with a focus on performance and conversion.",
       "Integrating external tools and APIs — Typeform, Pipedrive, Slack — to improve communication flows, CRM visibility, and operational efficiency.",
+      "Set up and implemented Playwright-based UAT automation tests for critical user journeys, improving release readiness and helping detect regressions earlier in the development process.",
     ],
-    tech: ["TypeScript", "React", "Next.js", "Node.js", "SQL", "n8n", "Looker Studio"],
+    tech: ["TypeScript", "React", "Next.js", "Node.js", "SQL", "n8n", "Looker Studio", "Playwright"],
   },
   {
     company: "Intertech (Information Technology and Marketing Inc.)",
@@ -136,13 +137,13 @@ export const skillGroups = [
 
 export const projects = [
   {
-    title: "Pizza DOT",
+    title: "Personalized Learning Assistant",
     description:
-      "An order form project for a pizza shop built around a 'create your own pizza' concept, with multi-step form validation and end-to-end tests.",
-    image: pizzaStoreImg,
-    tech: ["React", "Router", "Axios", "Cypress"],
-    repo: "https://github.com/GzdeGrlr/pizza-store-form",
-    live: "https://pizza-store-form-neoa8gjs0-gzdegrlr.vercel.app/",
+      "An AI-powered learning assistant that analyzes student performance data to generate personalized study plans and recommendations, supporting data-driven learning workflows.",
+    image: aiLearningAssistantImg,
+    tech: ["Claude Artifact", "Data Analysis", "Workflow", "Automation"],
+    live: "https://claude.ai/public/artifacts/56c31e5a-74ae-40b6-8180-6c7dd4e11a6c",
+    liveLabel: "View demo",
   },
   {
     title: "Give it a laugh!",
