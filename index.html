@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/photo-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#020617" media="(prefers-color-scheme: dark)" />
+    <title>Gözde Gürler — Product-Minded Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Product-oriented Full Stack Developer specializing in EdTech and e-commerce, building AI & automation workflows, data pipelines, and modern web apps."
+    />
+    <meta property="og:title" content="Gözde Gürler — Product-Minded Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Product-oriented Full Stack Developer specializing in EdTech and e-commerce, building AI & automation workflows, data pipelines, and modern web apps."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gozdegurler.vercel.app" />
+    <meta name="twitter:card" content="summary" />
+    <script>
+      // Stamp theme before first paint to avoid flash of wrong theme
+      (function () {
+        var t = localStorage.getItem("theme");
+        if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
