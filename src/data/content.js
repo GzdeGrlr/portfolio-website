@@ -42,6 +42,7 @@ export const experience = [
       "Led the iyzico payment integration and own landing page development with a focus on performance and conversion.",
       "Integrating external tools and APIs — Typeform, Pipedrive, Slack — to improve communication flows, CRM visibility, and operational efficiency.",
       "Set up and implemented Playwright-based UAT automation tests for critical user journeys, improving release readiness and helping detect regressions earlier in the development process.",
+      "Took ownership of landing page development, focusing on performance, responsiveness, user experience, and conversion-oriented improvements.",
     ],
     tech: ["TypeScript", "React", "Next.js", "Node.js", "SQL", "n8n", "Looker Studio", "Playwright"],
   },
