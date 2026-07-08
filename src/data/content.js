@@ -32,7 +32,7 @@ export const experience = [
   {
     company: "Workintech",
     role: "Full Stack Developer",
-    period: "Feb 2025 – Present",
+    period: "Feb 2025 – July 2026",
     location: "Istanbul",
     bullets: [
       "Contributing to NextGen, an EdTech platform supporting end-to-end learning journeys — lessons, live classes, practice modules, progress tracking, and project-based learning.",
