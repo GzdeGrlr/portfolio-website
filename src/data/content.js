@@ -1,15 +1,16 @@
 import introPhoto from "../assets/introPhoto.jpeg";
 import aiLearningAssistantImg from "../assets/AI-Learning-Assistant.png";
 import randomJokesImg from "../assets/random-jokes.png";
-import propertyPulseImg from "../assets/PropertyPulse.png";
+import fitloopImg from "../assets/FitloopAdPerformance.png";
+import vardiyaKazancImg from "../assets/VardiyaKazanc.jpg";
 
 export const site = {
   name: "Gözde Gürler",
   initials: "GG",
-  tagline: "Product-Minded Technologist",
-  taglineAreas: ["EdTech", "E-commerce", "AI & Automation"],
+  tagline: "Product, Engineering & Operations",
+  taglineAreas: ["AI Solutions", "Process Improvement", "E-commerce, Fintech & EdTech"],
   summary:
-    "Product-oriented Full Stack Developer with experience in EdTech and e-commerce platforms, combining software development, automation, data analysis, and product thinking to improve user experience and operational efficiency. I build internal tools, AI-assisted workflows, dashboards, landing pages, and data-driven product improvements.",
+    "I turn business needs and user problems into practical digital solutions. My experience spans e-commerce operations at eBay and ÇiçekSepeti, banking software at Intertech, and product development, test automation, and AI learning workflows at Workintech. Across these roles, I’ve connected the people who need a solution with the technology that makes it work—from understanding requirements to building, testing, and improving features. Today, I bring that perspective to product management and hands-on development, including an AI analytics agent and an iOS app published on the App Store.",
   photo: introPhoto,
   location: "Istanbul, Türkiye",
 };
@@ -35,12 +36,12 @@ export const experience = [
     period: "Feb 2025 – July 2026",
     location: "Istanbul",
     bullets: [
-      "Contributing to NextGen, an EdTech platform supporting end-to-end learning journeys — lessons, live classes, practice modules, progress tracking, and project-based learning.",
-      "Building n8n automation workflows for internal processes, AI-driven content generation, student follow-up, and learning quality operations.",
-      "Designing AI-assisted personalized learning workflows using student performance data, lesson scores, and cohort benchmarks.",
-      "Creating SQL-based data pipelines and dashboards that turn learning data into actionable insights for education and operations teams.",
-      "Led the iyzico payment integration and own landing page development with a focus on performance and conversion.",
-      "Integrating external tools and APIs — Typeform, Pipedrive, Slack — to improve communication flows, CRM visibility, and operational efficiency.",
+      "Contributed to NextGen, an EdTech platform supporting end-to-end learning journeys — lessons, live classes, practice modules, progress tracking, and project-based learning.",
+      "Built n8n automation workflows for internal processes, AI-driven content generation, student follow-up, and learning quality operations.",
+      "Designed AI-assisted personalized learning workflows using student performance data, lesson scores, and cohort benchmarks.",
+      "Created SQL-based data pipelines and dashboards that turned learning data into actionable insights for education and operations teams.",
+      "Led the iyzico payment integration for course purchases.",
+      "Integrated external tools and APIs — Typeform, Pipedrive, Slack — to improve communication flows, CRM visibility, and operational efficiency.",
       "Set up and implemented Playwright-based UAT automation tests for critical user journeys, improving release readiness and helping detect regressions earlier in the development process.",
       "Took ownership of landing page development, focusing on performance, responsiveness, user experience, and conversion-oriented improvements.",
     ],
@@ -52,7 +53,7 @@ export const experience = [
     period: "May 2023 – Dec 2024",
     location: "Istanbul",
     bullets: [
-      "Developed and improved features for a Legal Tracking System used by enterprise clients.",
+      "Developed and improved features for a Legal Tracking System used by bank employees to manage legal cases.",
       "Collaborated with stakeholders to translate business requirements into scalable technical solutions.",
       "Improved system performance through SQL query optimization and backend enhancements.",
       "Participated in Agile development cycles including sprint planning and delivery.",
@@ -102,6 +103,8 @@ export const skillGroups = [
     title: "AI & Automation",
     items: [
       "LLM-Powered Features",
+      "Claude API & Tool Calling",
+      "LLM Evals",
       "Prompt Engineering",
       "n8n",
       "Zapier",
@@ -129,14 +132,36 @@ export const skillGroups = [
       "JavaScript",
       "React",
       "Next.js",
+      "React Native / Expo",
       "Node.js",
       ".NET",
       "REST APIs",
+      "Playwright (E2E / UAT)",
+      "Unit Testing (Jest, Vitest)",
     ],
   },
 ];
 
 export const projects = [
+  {
+    title: "Fitloop Ad Performance",
+    description:
+      "A marketing team asks the same ad questions every day, plus many one-off ones. I split them: a dashboard answers the daily questions and an AI analyst answers the rest, both from the same metrics, so the numbers always match. When the team keeps asking the agent something, it moves onto the dashboard. Every number is checked by 167 tests and an eval set, so the team can trust what the agent says.",
+    image: fitloopImg,
+    tech: ["Next.js", "TypeScript", "LLM Agent", "Claude API", "Tool Calling"],
+    repo: "https://github.com/GzdeGrlr/fitloop-ad-performance",
+    live: "https://fitloop-ad-performance.vercel.app",
+    liveLabel: "Live demo",
+  },
+  {
+    title: "Vardiya Kazanç",
+    description:
+      "Couriers rarely know what they actually earn per hour once fuel and other costs come out. This iOS app tracks shifts, deliveries, tips and expenses and shows real net earnings. Data stays on the phone for privacy, and the business model is a free version with ads plus a one-time Premium instead of a subscription.",
+    image: vardiyaKazancImg,
+    tech: ["React Native", "Expo", "TypeScript", "SQLite", "StoreKit"],
+    live: "https://apps.apple.com/tr/app/vardiya-kazan%C3%A7/id6809516757",
+    liveLabel: "App Store",
+  },
   {
     title: "Personalized Learning Assistant",
     description:
@@ -154,15 +179,6 @@ export const projects = [
     tech: ["React", "Redux", "Router", "Axios"],
     repo: "https://github.com/GzdeGrlr/give-it-a-laugh",
     live: "https://give-it-a-laugh.vercel.app/",
-  },
-  {
-    title: "Property Pulse",
-    description:
-      "A real estate platform built with Next.js and MongoDB, offering dynamic property listings, secure authentication with NextAuth, and a user-friendly interface.",
-    image: propertyPulseImg,
-    tech: ["Next.js", "NextAuth", "MongoDB", "Tailwind CSS"],
-    repo: "https://github.com/GzdeGrlr/PropertyPulse",
-    live: "https://property-pulse-taupe-two.vercel.app/",
   },
 ];
 
